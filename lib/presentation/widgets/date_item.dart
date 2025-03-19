@@ -37,7 +37,7 @@ class DateItem extends StatelessWidget {
                       dateTime = state.endDate;
                     }
                     return Text(
-                      dateTime != null ? "${dateTime.day}-${dateTime.month}-${dateTime.year}" : '?',
+                      dateTime != null ? "${dateTime.day}-${dateTime.month}-${dateTime.year}" : '-',
                       style: const TextStyle(
                           fontSize: 17, fontWeight: FontWeight.w600),
                     );
